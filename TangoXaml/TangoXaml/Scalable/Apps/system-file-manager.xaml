@@ -1,0 +1,142 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,48,48" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="layer1">
+      <DrawingGroup x:Name="g5022" Transform="0.01949531,0,0,0.02086758,42.61888,39.78964">
+        <GeometryDrawing x:Name="rect4173">
+          <GeometryDrawing.Brush>
+            <LinearGradientBrush StartPoint="302.85715,366.64789" EndPoint="302.85715,609.50507" MappingMode="Absolute" Opacity="0.40206185" Transform="2.774389,0,0,1.969706,-1892.179,-872.8854">
+              <GradientStop Color="#00000000" Offset="0" />
+              <GradientStop Color="#FF000000" Offset="0.5" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </LinearGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-1559.2523,-150.6969,1339.6335,478.3572" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path5058">
+          <GeometryDrawing.Brush>
+            <RadialGradientBrush Center="605.71429,486.64789" RadiusX="117.14286" RadiusY="117.14286" GradientOrigin="605.71429,486.64789" MappingMode="Absolute" Opacity="0.40206185" Transform="2.774389,0,0,1.969706,-1891.633,-872.8854">
+              <GradientStop Color="#FF000000" Offset="0" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </RadialGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M-219.61876,-150.68038C-219.61876,-150.68038 -219.61876,327.65041 -219.61876,327.65041 -76.744594,328.55086 125.78146,220.48075 125.78138,88.454235 125.78138,-43.572302 -33.655436,-150.68036 -219.61876,-150.68038z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path5018">
+          <GeometryDrawing.Brush>
+            <RadialGradientBrush Center="605.71429,486.64789" RadiusX="117.14286" RadiusY="117.14286" GradientOrigin="605.71429,486.64789" MappingMode="Absolute" Opacity="0.40206185" Transform="-2.774389,0,0,1.969706,112.7623,-872.8854">
+              <GradientStop Color="#FF000000" Offset="0" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </RadialGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M-1559.2523,-150.68038C-1559.2523,-150.68038 -1559.2523,327.65041 -1559.2523,327.65041 -1702.1265,328.55086 -1904.6525,220.48075 -1904.6525,88.454235 -1904.6525,-43.572302 -1745.2157,-150.68036 -1559.2523,-150.68038z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path1414" Brush="#FFC17D11">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF444329" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Figures="M10.625,11.625L10.625,42.625 39.625,42.625 39.625,11.625 35.625,7.625 14.625,7.625 10.625,11.625z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path2380" Brush="#FFE9B96E">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Figures="M14.849242,8.2252435L11.126209,12.041107 12.314694,12.291107 38.129165,12.291107 39.13015,12.041107 35.266951,8.2252435 14.849242,8.2252435z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3083" Brush="#FFE9B96E">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFE9B96E" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.9286" RadiusY="0.9286" Rect="14.75,28.8284,21,10.0555" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect1416" Brush="#FFB67610">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF7B500B" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.9286" RadiusY="0.9286" Rect="14.5732,28.4749,21,10.0555" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path2358">
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <LinearGradientBrush StartPoint="14.68055,7.2187386" EndPoint="38.694427,57.468739" MappingMode="Absolute" Opacity="1">
+                <LinearGradientBrush.Transform>
+                  <TransformGroup>
+                    <TransformGroup>
+                      <ScaleTransform ScaleX="-Infinity" ScaleY="-Infinity" />
+                      <TranslateTransform X="NaN" Y="NaN" />
+                    </TransformGroup>
+                    <RotateTransform Angle="45" CenterX="0.5" CenterY="0.5" />
+                  </TransformGroup>
+                </LinearGradientBrush.Transform>
+                <GradientStop Color="#FFFFFFFF" Offset="0" />
+                <GradientStop Color="#00FFFFFF" Offset="1" />
+              </LinearGradientBrush>
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Figures="M11.68055,12.062494L11.68055,41.652758 38.569426,41.652758 38.569426,12.062494 35.16665,8.6597185 15.083327,8.6597185 11.68055,12.062494z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3081" Brush="#FFE9B96E">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFE9B96E" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.9286" RadiusY="0.9286" Rect="14.75,15.7159,21,10.0555" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3077" Brush="#FFB67610">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF7B500B" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.9286" RadiusY="0.9286" Rect="14.5732,15.3623,21,10.0555" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3079">
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="25.249994,23.568451" EndPoint="25.249994,19.168869" MappingMode="Absolute" Opacity="1">
+            <GradientStop Color="#FFB47002" Offset="0" />
+            <GradientStop Color="#FF6B4301" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF7B500B" Thickness="0.99999923" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.2866" RadiusY="0.3374" Rect="21.7437,21.5692,6.7474,3.8217" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3093">
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="25.249994,23.568451" EndPoint="25.249994,19.168869" MappingMode="Absolute" Opacity="1" Transform="1,0,0,1,0,13.11256">
+            <GradientStop Color="#FFB47002" Offset="0" />
+            <GradientStop Color="#FF6B4301" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF7B500B" Thickness="0.99999923" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.2866" RadiusY="0.3374" Rect="21.7437,34.6818,6.7474,3.8217" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

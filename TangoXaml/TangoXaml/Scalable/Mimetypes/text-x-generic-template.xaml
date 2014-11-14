@@ -1,0 +1,410 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,48,48" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="layer6">
+      <DrawingGroup x:Name="g6707" Transform="0.02105461,0,0,0.02086758,42.85172,41.1536">
+        <GeometryDrawing x:Name="rect6709">
+          <GeometryDrawing.Brush>
+            <LinearGradientBrush StartPoint="302.85715,366.64789" EndPoint="302.85715,609.50507" MappingMode="Absolute" Opacity="0.40206185" Transform="2.774389,0,0,1.969706,-1892.179,-872.8854">
+              <GradientStop Color="#00000000" Offset="0" />
+              <GradientStop Color="#FF000000" Offset="0.5" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </LinearGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-1559.2523,-150.6969,1339.6335,478.3572" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path6711">
+          <GeometryDrawing.Brush>
+            <RadialGradientBrush Center="605.71429,486.64789" RadiusX="117.14286" RadiusY="117.14286" GradientOrigin="605.71429,486.64789" MappingMode="Absolute" Opacity="0.40206185" Transform="2.774389,0,0,1.969706,-1891.633,-872.8854">
+              <GradientStop Color="#FF000000" Offset="0" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </RadialGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M-219.61876,-150.68038C-219.61876,-150.68038 -219.61876,327.65041 -219.61876,327.65041 -76.744594,328.55086 125.78146,220.48075 125.78138,88.454235 125.78138,-43.572302 -33.655436,-150.68036 -219.61876,-150.68038z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path6713">
+          <GeometryDrawing.Brush>
+            <RadialGradientBrush Center="605.71429,486.64789" RadiusX="117.14286" RadiusY="117.14286" GradientOrigin="605.71429,486.64789" MappingMode="Absolute" Opacity="0.40206185" Transform="-2.774389,0,0,1.969706,112.7623,-872.8854">
+              <GradientStop Color="#FF000000" Offset="0" />
+              <GradientStop Color="#00000000" Offset="1" />
+            </RadialGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M-1559.2523,-150.68038C-1559.2523,-150.68038 -1559.2523,327.65041 -1559.2523,327.65041 -1702.1265,328.55086 -1904.6525,220.48075 -1904.6525,88.454235 -1904.6525,-43.572302 -1745.2157,-150.68036 -1559.2523,-150.68038z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer1">
+      <GeometryDrawing x:Name="rect15391">
+        <GeometryDrawing.Brush>
+          <RadialGradientBrush Center="33.966679,35.736916" RadiusX="86.70845" RadiusY="86.70845" GradientOrigin="33.966679,35.736916" MappingMode="Absolute" Opacity="1" Transform="0.960493,0,0,1.041132,0,0">
+            <GradientStop Color="#FFFAFAFA" Offset="0" />
+            <GradientStop Color="#FFBBBBBB" Offset="1" />
+          </RadialGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+            <Pen.Brush>
+              <RadialGradientBrush Center="8.824419,3.7561285" RadiusX="37.751713" RadiusY="37.751713" GradientOrigin="8.824419,3.7561285" MappingMode="Absolute" Opacity="1" Transform="0.968273,0,0,1.032767,3.353553,0.646447">
+                <GradientStop Color="#FFA3A3A3" Offset="0" />
+                <GradientStop Color="#FF4C4C4C" Offset="1" />
+              </RadialGradientBrush>
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="1.149" RadiusY="1.149" Rect="6.6036,3.6464,34.875,40.9205" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect15660">
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+            <Pen.Brush>
+              <RadialGradientBrush Center="8.1435566,7.2678967" RadiusX="38.158695" RadiusY="38.158695" GradientOrigin="8.1435566,7.2678967" MappingMode="Absolute" Opacity="1" Transform="0.968273,0,0,1.032767,3.353553,0.646447">
+                <GradientStop Color="#FFFFFFFF" Offset="0" />
+                <GradientStop Color="#FFF8F8F8" Offset="1" />
+              </RadialGradientBrush>
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0.149" RadiusY="0.149" Rect="7.6661,4.5839,32.7759,38.9464" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer5">
+      <DrawingGroup x:Name="g3405" Transform="1,0,0,1,-1.149045,0">
+        <GeometryDrawing x:Name="path3401" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3403">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3409" Transform="1,0,0,1,-1.149045,4">
+        <GeometryDrawing x:Name="path3411" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3413">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3415" Transform="1,0,0,1,-1.149045,8">
+        <GeometryDrawing x:Name="path3417" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3419">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3421" Transform="1,0,0,1,-1.149045,12">
+        <GeometryDrawing x:Name="path3423" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3425">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3427" Transform="1,0,0,1,-1.149045,16">
+        <GeometryDrawing x:Name="path3429" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3431">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3433" Transform="1,0,0,1,-1.149045,20">
+        <GeometryDrawing x:Name="path3435" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3437">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3439" Transform="1,0,0,1,-1.149045,24">
+        <GeometryDrawing x:Name="path3441" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3443">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3445" Transform="1,0,0,1,-1.149045,28">
+        <GeometryDrawing x:Name="path3447" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3449">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3451" Transform="1,0,0,1,-1.149045,32">
+        <GeometryDrawing x:Name="path3453" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3455">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3457" Transform="1,0,0,1,-3.502596,6">
+        <GeometryDrawing x:Name="path3459" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3461">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3463" Transform="1,0,0,1,1.204508,6">
+        <GeometryDrawing x:Name="path3465" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3467">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3469" Transform="1,0,0,1,3.204508,12">
+        <GeometryDrawing x:Name="path3471" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3473">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3475" Transform="1,0,0,1,5.204508,18">
+        <GeometryDrawing x:Name="path3477" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3479">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3481" Transform="1,0,0,1,7.204508,24">
+        <GeometryDrawing x:Name="path3483" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3485">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3487" Transform="1,0,0,1,9.204482,30">
+        <GeometryDrawing x:Name="path3489" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3491">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3493" Transform="1,0,0,1,-5.502618,12">
+        <GeometryDrawing x:Name="path3495" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3497">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3499" Transform="1,0,0,1,-7.502618,18">
+        <GeometryDrawing x:Name="path3501" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3503">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3505" Transform="1,0,0,1,-9.502622,24">
+        <GeometryDrawing x:Name="path3507" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3509">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g3511" Transform="1,0,0,1,-11.50263,30">
+        <GeometryDrawing x:Name="path3513" Brush="#FFFFFFFF">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3515">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF000000" Opacity="0.11111111" Transform="1,0,0,1,-0.353553,-0.265165" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,-0.353553,-0.265165" Figures="M26.339728,8.5787964A1.1490486,1.1490486,0,1,1,24.041631,8.5787964A1.1490486,1.1490486,0,1,1,26.339728,8.5787964z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path3517">
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="57.643562,8.6012535" EndPoint="34.242393,21.033955" MappingMode="Absolute" Opacity="1">
+            <LinearGradientBrush.Transform>
+              <TransformGroup>
+                <TransformGroup>
+                  <ScaleTransform ScaleX="3.1494391891116704" ScaleY="3.1494391891116704" />
+                  <TranslateTransform X="-186.75214426332357" Y="-22.664580513972297" />
+                </TransformGroup>
+                <MatrixTransform>0.668545,0,0,1.495785,0,0</MatrixTransform>
+              </TransformGroup>
+            </LinearGradientBrush.Transform>
+            <GradientStop Color="#FFFFFFFF" Offset="0" />
+            <GradientStop Color="#00FFFFFF" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Figures="M22.892582,4.8664863L35.974058,43.580583 40.393475,43.492194 40.305087,4.4245445 22.892582,4.8664863z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3527">
+        <GeometryDrawing.Brush>
+          <LinearGradientBrush StartPoint="57.643562,8.6012535" EndPoint="39.081673,20.9233" MappingMode="Absolute" Opacity="1">
+            <LinearGradientBrush.Transform>
+              <TransformGroup>
+                <TransformGroup>
+                  <ScaleTransform ScaleX="3.0844707381400265" ScaleY="3.0844707381400265" />
+                  <TranslateTransform X="-190.47258612325791" Y="-21.487051773547876" />
+                </TransformGroup>
+                <MatrixTransform>-0.668545,0,0,1.495785,47.90649,0</MatrixTransform>
+              </TransformGroup>
+            </LinearGradientBrush.Transform>
+            <GradientStop Color="#18000000" Offset="0" />
+            <GradientStop Color="#00000000" Offset="1" />
+          </LinearGradientBrush>
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Figures="M23.864853,5.043263L10.606601,43.050253 8.0433396,43.050252 8.0433392,5.0432629 23.864853,5.043263z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>
