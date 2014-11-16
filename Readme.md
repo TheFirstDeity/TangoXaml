@@ -2,112 +2,113 @@
 
 ## Example
 
-<!-- language-all: lang-xml -->
-
 ####MainSkin.xaml
-    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                        xmlns:tango="clr-namespace:TangoXaml;assembly=TangoXaml">
-        
-        <ResourceDictionary.MergedDictionaries>
-            <tango:Actions />
-            <tango:Devices />
-            <tango:Emblems />
-        </ResourceDictionary.MergedDictionaries>
+```xml
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:tango="clr-namespace:TangoXaml;assembly=TangoXaml">
     
-        <!-- "Converter" which JIT compiles the Tango icon graphics -->
-        <tango:LazyConverter x:Key="LazyConverter" />
-        
-        <!-- Assign icon keys for this skin -->
-        <DrawingImage x:Key="SaveIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=media-floppy},
-            Converter={StaticResource LazyConverter}}" />
-    
-        <DrawingImage x:Key="OpenIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=document-open},
-            Converter={StaticResource LazyConverter}}" />
-    
-        <DrawingImage x:Key="FormatBoldIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=format-text-bold},
-            Converter={StaticResource LazyConverter}}" />
-    
-        <DrawingImage x:Key="FormatItalicIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=format-text-italic},
-            Converter={StaticResource LazyConverter}}" />
-    
-        <DrawingImage x:Key="FormatUnderlineIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=format-text-underline},
-            Converter={StaticResource LazyConverter}}" />
-    
-        <DrawingImage x:Key="SettingsIcon" 
-                      Drawing="{Binding 
-            Source={StaticResource ResourceKey=emblem-system},
-            Converter={StaticResource LazyConverter}}" />
-    
-    </ResourceDictionary>
+    <ResourceDictionary.MergedDictionaries>
+        <tango:Actions />
+        <tango:Devices />
+        <tango:Emblems />
+    </ResourceDictionary.MergedDictionaries>
 
+    <!-- "Converter" which JIT compiles the Tango icon graphics -->
+    <tango:LazyConverter x:Key="LazyConverter" />
+    
+    <!-- Assign icon keys for this skin -->
+    <DrawingImage x:Key="SaveIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=media-floppy},
+        Converter={StaticResource LazyConverter}}" />
+
+    <DrawingImage x:Key="OpenIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=document-open},
+        Converter={StaticResource LazyConverter}}" />
+
+    <DrawingImage x:Key="FormatBoldIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=format-text-bold},
+        Converter={StaticResource LazyConverter}}" />
+
+    <DrawingImage x:Key="FormatItalicIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=format-text-italic},
+        Converter={StaticResource LazyConverter}}" />
+
+    <DrawingImage x:Key="FormatUnderlineIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=format-text-underline},
+        Converter={StaticResource LazyConverter}}" />
+
+    <DrawingImage x:Key="SettingsIcon" 
+                  Drawing="{Binding 
+        Source={StaticResource ResourceKey=emblem-system},
+        Converter={StaticResource LazyConverter}}" />
+
+</ResourceDictionary>
+```
 
 ####MainWindow.xaml
-    <Window x:Class="Example.MainWindow"
-            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-            xmlns:ignore="http://www.ignore.com"
-            mc:Ignorable="d ignore"
-            Height="480"
-            Width="854"
-            Title="TangoXaml Example">
+```xml
+<Window x:Class="Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.ignore.com"
+        mc:Ignorable="d ignore"
+        Height="480"
+        Width="854"
+        Title="TangoXaml Example">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skin/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
         
-        <Window.Resources>
-            <ResourceDictionary>
-                <ResourceDictionary.MergedDictionaries>
-                    <ResourceDictionary Source="Skin/MainSkin.xaml" />
-                </ResourceDictionary.MergedDictionaries>
-            </ResourceDictionary>
-        </Window.Resources>
-    
-        <Grid x:Name="LayoutRoot">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-            </Grid.ColumnDefinitions>
+        <Ribbon>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu SmallImageSource="{StaticResource SettingsIcon}">
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
             
-            <Ribbon>
-                <Ribbon.ApplicationMenu>
-                    <RibbonApplicationMenu SmallImageSource="{StaticResource SettingsIcon}">
-                    </RibbonApplicationMenu>
-                </Ribbon.ApplicationMenu>
-                
-                <RibbonTab Header="Home" IsSelected="True">
-                    <RibbonGroup Header="File">
-                        <RibbonButton Label="Open" LargeImageSource="{StaticResource OpenIcon}" />
-                        <RibbonButton Label="Save" LargeImageSource="{StaticResource SaveIcon}" />
-                    </RibbonGroup>
-                    <RibbonGroup Header="Edit">
-                        <RibbonButton Label="Bold" LargeImageSource="{StaticResource FormatBoldIcon}" />
-                        <RibbonButton Label="Italic" LargeImageSource="{StaticResource FormatItalicIcon}" />
-                        <RibbonButton Label="Underline" LargeImageSource="{StaticResource FormatUnderlineIcon}" />
-                    </RibbonGroup>
-                </RibbonTab>
-    
-            </Ribbon>
-        </Grid>
-    </Window>
+            <RibbonTab Header="Home" IsSelected="True">
+                <RibbonGroup Header="File">
+                    <RibbonButton Label="Open" LargeImageSource="{StaticResource OpenIcon}" />
+                    <RibbonButton Label="Save" LargeImageSource="{StaticResource SaveIcon}" />
+                </RibbonGroup>
+                <RibbonGroup Header="Edit">
+                    <RibbonButton Label="Bold" LargeImageSource="{StaticResource FormatBoldIcon}" />
+                    <RibbonButton Label="Italic" LargeImageSource="{StaticResource FormatItalicIcon}" />
+                    <RibbonButton Label="Underline" LargeImageSource="{StaticResource FormatUnderlineIcon}" />
+                </RibbonGroup>
+            </RibbonTab>
+
+        </Ribbon>
+    </Grid>
+</Window>
+```
 
 ####Result
 ![TangoXaml Example](TangoXaml_Example.png)  
 
   
-####Icons stay smooth (non-pixelated) even whith 800% zoom
+####Icons stay smooth (non-pixelated) even with 800% zoom
 <img src="TangoXaml_Zoom.png" width="854">  
   
 ---
