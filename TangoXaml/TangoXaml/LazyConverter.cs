@@ -11,7 +11,7 @@ namespace TangoXaml
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value.GetType().IsAssignableFrom(typeof(Lazy<DrawingGroup>)))
+            if (value.GetType().Equals(typeof(Lazy<DrawingGroup>)))
             {
                 var lazy = (Lazy<DrawingGroup>)value;
 
@@ -20,7 +20,7 @@ namespace TangoXaml
                     return lazy.Value;
                 }
 
-                if (targetType.Equals(typeof(ImageSource)))
+                if (targetType.IsAssignableFrom(typeof(DrawingImage)))
                 {
                     var img = new DrawingImage();
                     img.Drawing = lazy.Value;
@@ -43,7 +43,7 @@ namespace TangoXaml
 
                 if (value.GetType().Equals(typeof(DrawingImage)))
                 {
-                    var img = (DrawingImage)value; // Do the casting here so it throws an exception right away if it's the wrong type
+                    var img = (DrawingImage)value;
                     var draw = (DrawingGroup)img.Drawing;
                     return new Lazy<DrawingGroup>(() => draw);
                 }
