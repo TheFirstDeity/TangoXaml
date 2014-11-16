@@ -5,7 +5,7 @@
 ---
 
 ##Summary
-A WPF-friendly port of the tango icon theme. Scalable SVG icons have been converted into XAML and embedded into a .Net assembly. Icons are JIT-compiled the first time they are used. The "LazyConverter" class does the JIT compile and provides conversions useful in various scenarios.
+A WPF friendly port of the tango icon theme. Scalable SVG icons have been converted into XAML and embedded into a .Net assembly. Icons are JIT-compiled the first time they are used. The "LazyConverter" class does the JIT compile and provides conversions useful in various scenarios.
 
 ##Example
 
@@ -123,7 +123,7 @@ A WPF-friendly port of the tango icon theme. Scalable SVG icons have been conver
 ## Credits
 **Fork Author:** [TheFirstDeity](https://github.com/TheFirstDeity)  
 **Fork Copyright 2014:** Monadone (<me@monadone.com>)  
-**Project Page:** <https://github.com/TheFirstDeity/tango-icon-theme>  
+**Project Page:** <https://github.com/TheFirstDeity/TangoXaml>  
 **Forked From:** <https://github.com/stephenc/tango-icon-theme>  
 
 ---
@@ -135,7 +135,7 @@ A WPF-friendly port of the tango icon theme. Scalable SVG icons have been conver
 The [software][] portion of this repository is liscensed under the MS-PL. The [liscense][] 
 is located in the [software][]'s folder.
 
-[software]: https://github.com/TheFirstDeity/tango-icon-theme/tree/master/TangoXaml
-[liscense]: https://github.com/TheFirstDeity/tango-icon-theme/blob/master/TangoXaml/Liscense.txt
-[tango-authors]: https://github.com/TheFirstDeity/tango-icon-theme/blob/master/Tango/AUTHORS
-[tango-copying]: https://github.com/TheFirstDeity/tango-icon-theme/blob/master/Tango/COPYING
+[software]: https://github.com/TheFirstDeity/TangoXaml/tree/master/TangoXaml
+[liscense]: https://github.com/TheFirstDeity/TangoXaml/blob/master/TangoXaml/Liscense.txt
+[tango-authors]: https://github.com/TheFirstDeity/TangoXaml/blob/master/Tango/AUTHORS
+[tango-copying]: https://github.com/TheFirstDeity/TangoXaml/blob/master/Tango/COPYING

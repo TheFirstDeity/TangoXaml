@@ -6,9 +6,9 @@
     <title>$title$</title>
     <authors>TheFirstDeity</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://raw.githubusercontent.com/TheFirstDeity/tango-icon-theme/master/TangoXaml/Liscense.txt</licenseUrl>
-    <projectUrl>http://github.com/TheFirstDeity/tango-icon-theme</projectUrl>
-    <iconUrl>http://raw.githubusercontent.com/TheFirstDeity/tango-icon-theme/master/Tango/32x32/places/start-here.png</iconUrl>
+    <licenseUrl>http://raw.githubusercontent.com/TheFirstDeity/TangoXaml/master/TangoXaml/Liscense.txt</licenseUrl>
+    <projectUrl>http://github.com/TheFirstDeity/TangoXaml</projectUrl>
+    <iconUrl>http://raw.githubusercontent.com/TheFirstDeity/TangoXaml/master/Tango/32x32/places/start-here.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial release</releaseNotes>
