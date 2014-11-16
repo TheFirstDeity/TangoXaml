@@ -11,7 +11,7 @@
     <iconUrl>http://raw.githubusercontent.com/TheFirstDeity/TangoXaml/master/Tango/32x32/places/start-here.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Small correction to LazyConverter</releaseNotes>
+    <releaseNotes>See "Changes" in the project readme, on project page</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>'tango icon theme' 'tango icons' 'tango theme' 'vector icons' 'vector graphics' tango icons xaml skin wpf C#</tags>
   </metadata>

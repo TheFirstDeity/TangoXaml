@@ -120,6 +120,10 @@ A WPF friendly port of the tango icon theme. Scalable SVG icons have been conver
   
 ---
 
+## Changes
+#### 1.0.1 (Pending Release)
+* Correction to LazyConverter type checking
+
 ## Credits
 **Fork Author:** [TheFirstDeity](https://github.com/TheFirstDeity)  
 **Fork Copyright 2014:** Monadone (<me@monadone.com>)  
