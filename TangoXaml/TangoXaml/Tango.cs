@@ -7,7 +7,6 @@ using System.Windows.Media;
 
 namespace TangoXaml
 {
-    
     internal static class Tango
     {
         private static readonly string ResourcePath = typeof(Tango).Namespace + ".Scalable.";
@@ -26,7 +25,7 @@ namespace TangoXaml
             var resourceInfo = assembly.GetManifestResourceNames()
                 .Where(n => n.StartsWith(ResourcePath))
                 .Select(n => new {
-                    CategoryAndName = n.Substring(ResourcePath.Length).Split(splitChar, 2),
+                    CategoryAndName = n.Substring(ResourcePath.Length).Split(splitChar),
                     Drawing = new Lazy<DrawingGroup>(() => (DrawingGroup)XamlReader.Load(assembly.GetManifestResourceStream(n)))
                 });
 
