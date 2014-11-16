@@ -1,6 +1,13 @@
 # TangoXaml
 
-## Example
+###_Download with NuGet: <http://www.nuget.org/packages/TangoXaml>_
+
+---
+
+##Summary
+A WPF-friendly port of the tango icon theme. Scalable SVG icons have been converted into XAML and embedded into a .Net assembly. Icons are JIT-compiled the first time they are used. The "LazyConverter" class does the JIT compile and provides conversions useful in various scenarios.
+
+##Example
 
 ####MainSkin.xaml
 ```xml
