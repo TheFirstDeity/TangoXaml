@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Baml2006;
 using System.Windows.Markup;
 using System.Windows.Media;
 
@@ -102,7 +104,7 @@ namespace TangoXaml
                 .Select(n => new
                 {
                     CategoryAndName = n.Substring(ResourcePath.Length).Split(splitChar),
-                    Drawing = new Lazy<DrawingGroup>(() => (DrawingGroup)XamlReader.Load(assembly.GetManifestResourceStream(n)))
+                    Drawing = new Lazy<DrawingGroup>(() => LoadBaml<DrawingGroup>(assembly.GetManifestResourceStream(n)))
                 });
 
             DictionariesByCategory = new Dictionary<string, ResourceDictionary>();
@@ -117,6 +119,12 @@ namespace TangoXaml
                 }
                 dict.Add(info.CategoryAndName[1], info.Drawing);
             }
+        }
+
+        private static T LoadBaml<T>(Stream stream)
+        {
+            var reader = new Baml2006Reader(stream);
+            return (T)XamlReader.Load(reader);
         }
     }
 }

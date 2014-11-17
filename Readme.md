@@ -6,7 +6,7 @@
 ---
 
 ##Summary
-A WPF friendly port of the tango icon theme. Scalable SVG icons have been converted into XAML and embedded into a .Net assembly. Icons are JIT-compiled the first time they are used. The "LazyConverter" class does the JIT compile and provides conversions useful in various scenarios.
+A WPF friendly port of the tango icon theme. Scalable SVG icons have been converted into XAML. Icons are embedded as the optimized BAML format, resulting in faster loading and a much smaller file size (about 1/2 of raw XAML, and 1/3 of raw SVG). The "LazyConverter" class does lazy intialization and provides conversions useful in various scenarios.
 
 ##Example
 
@@ -122,9 +122,9 @@ A WPF friendly port of the tango icon theme. Scalable SVG icons have been conver
 ---
 
 ## Changes
-#### 1.0.2 (Next Release)
+#### 1.0.2
 * Optimization: XAML files are pre-compiled into BAML instead of being JIT-compiled at runtime
-* __TODO:__ "XamlReader.Load()" cannot load BAML files, needs solution
+ - __Assembly size has been cut in half!__
 
 #### 1.0.1
 * Correction to LazyConverter type checking
