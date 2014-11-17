@@ -7,6 +7,80 @@ using System.Windows.Media;
 
 namespace TangoXaml
 {
+    #region Category Classes
+    public sealed class Actions : ResourceDictionary
+    {
+        public Actions()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Apps : ResourceDictionary
+    {
+        public Apps()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Categories : ResourceDictionary
+    {
+        public Categories()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Devices : ResourceDictionary
+    {
+        public Devices()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Emblems : ResourceDictionary
+    {
+        public Emblems()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Emotes : ResourceDictionary
+    {
+        public Emotes()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Mimetypes : ResourceDictionary
+    {
+        public Mimetypes()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Places : ResourceDictionary
+    {
+        public Places()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    }
+
+    public sealed class Status : ResourceDictionary
+    {
+        public Status()
+        {
+            MergedDictionaries.Add(Tango.DictionariesByCategory[GetType().Name]);
+        }
+    } 
+    #endregion
+
     internal static class Tango
     {
         private static readonly string ResourcePath = typeof(Tango).Namespace + ".Scalable.";
