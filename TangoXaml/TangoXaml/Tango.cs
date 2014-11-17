@@ -98,7 +98,6 @@ namespace TangoXaml
             var splitChar = new char[] { '.' };
             var assembly = typeof(Tango).Assembly;
 
-            var names = assembly.GetManifestResourceNames();
             var resourceInfo = assembly.GetManifestResourceNames()
                 .Where(n => n.StartsWith(ResourcePath))
                 .Select(n => new
