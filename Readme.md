@@ -122,7 +122,7 @@ A WPF friendly port of the tango icon theme. Scalable SVG icons have been conver
 ---
 
 ## Changes
-### 1.0.3 (Next Release)
+### 1.0.3
 * Removed duplicate line of code
 * Closed all the streams I forgot about
 
