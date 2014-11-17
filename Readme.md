@@ -122,6 +122,10 @@ A WPF friendly port of the tango icon theme. Scalable SVG icons have been conver
 ---
 
 ## Changes
+### 1.0.3 (Next Release)
+* Removed duplicate line of code
+* Closed all the streams I forgot about
+
 #### 1.0.2
 * Optimization: XAML files are pre-compiled into BAML instead of being JIT-compiled at runtime
  - __Assembly size has been cut in half!__

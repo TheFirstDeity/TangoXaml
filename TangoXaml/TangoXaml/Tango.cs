@@ -120,10 +120,12 @@ namespace TangoXaml
             }
         }
 
-        private static T LoadBaml<T>(Stream stream)
+        private static T LoadBaml<T>(Stream stream, bool keepStreamOpen = false)
         {
             var reader = new Baml2006Reader(stream);
-            return (T)XamlReader.Load(reader);
+            var result = (T)XamlReader.Load(reader);
+            if (!keepStreamOpen) stream.Dispose();
+            return result;
         }
     }
 }
