@@ -130,6 +130,7 @@ publish/
 
 # NuGet Packages Directory
 packages/*
+/TangoXaml/packages
 #!packages/repositories.config
 *.nupkg
 

@@ -78,858 +78,858 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Scalable\Actions\address-book-new.xaml">
+    <Page Include="Scalable\Actions\address-book-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\appointment-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\appointment-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\bookmark-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\bookmark-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\contact-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\contact-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-open.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-open.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-print-preview.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-print-preview.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-print.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-print.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-properties.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-properties.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-save-as.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-save-as.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\document-save.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\document-save.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-clear.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-clear.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-copy.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-copy.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-cut.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-cut.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-delete.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-delete.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-find-replace.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-find-replace.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-find.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-find.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-paste.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-paste.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-redo.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-redo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-select-all.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-select-all.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\edit-undo.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\edit-undo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\folder-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\folder-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-indent-less.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-indent-less.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-indent-more.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-indent-more.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-justify-center.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-justify-center.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-justify-fill.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-justify-fill.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-justify-left.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-justify-left.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-justify-right.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-justify-right.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-text-bold.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-text-bold.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-text-italic.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-text-italic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-text-strikethrough.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-text-strikethrough.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\format-text-underline.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\format-text-underline.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-bottom.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-bottom.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-down.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-down.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-first.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-first.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-home.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-home.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-jump.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-jump.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-last.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-last.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-next.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-next.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-previous.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-previous.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-top.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-top.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\go-up.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\go-up.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\list-add.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\list-add.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\list-remove.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\list-remove.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-forward.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-forward.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-mark-junk.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-mark-junk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-message-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-message-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-reply-all.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-reply-all.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-reply-sender.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-reply-sender.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\mail-send-receive.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\mail-send-receive.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-eject.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-eject.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-playback-pause.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-playback-pause.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-playback-start.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-playback-start.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-playback-stop.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-playback-stop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-record.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-record.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-seek-backward.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-seek-backward.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-seek-forward.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-seek-forward.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-skip-backward.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-skip-backward.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\media-skip-forward.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\media-skip-forward.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\process-stop.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\process-stop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\system-lock-screen.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\system-lock-screen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\system-log-out.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\system-log-out.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\system-search.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\system-search.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\system-shutdown.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\system-shutdown.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\tab-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\tab-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\view-fullscreen.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\view-fullscreen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\view-refresh.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\view-refresh.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Actions\window-new.xaml">
+    </Page>
+    <Page Include="Scalable\Actions\window-new.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\accessories-calculator.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\accessories-calculator.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\accessories-character-map.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\accessories-character-map.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\accessories-text-editor.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\accessories-text-editor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\help-browser.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\help-browser.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\internet-group-chat.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\internet-group-chat.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\internet-mail.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\internet-mail.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\internet-news-reader.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\internet-news-reader.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\internet-web-browser.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\internet-web-browser.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\office-calendar.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\office-calendar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-accessibility.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-accessibility.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-assistive-technology.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-assistive-technology.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-font.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-font.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-keyboard-shortcuts.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-keyboard-shortcuts.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-locale.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-locale.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-multimedia.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-multimedia.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-remote-desktop.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-remote-desktop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-screensaver.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-screensaver.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-theme.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-theme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-desktop-wallpaper.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-desktop-wallpaper.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-system-network-proxy.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-system-network-proxy.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-system-session.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-system-session.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\preferences-system-windows.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\preferences-system-windows.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\system-file-manager.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\system-file-manager.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\system-installer.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\system-installer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\system-software-update.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\system-software-update.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\system-users.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\system-users.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\utilities-system-monitor.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\utilities-system-monitor.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Apps\utilities-terminal.xaml">
+    </Page>
+    <Page Include="Scalable\Apps\utilities-terminal.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-accessories.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-accessories.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-development.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-development.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-games.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-games.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-graphics.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-graphics.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-internet.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-internet.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-multimedia.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-multimedia.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-office.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-office.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-other.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-other.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\applications-system.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\applications-system.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\preferences-desktop-peripherals.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\preferences-desktop-peripherals.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\preferences-desktop.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\preferences-desktop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Categories\preferences-system.xaml">
+    </Page>
+    <Page Include="Scalable\Categories\preferences-system.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\audio-card.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\audio-card.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\audio-input-microphone.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\audio-input-microphone.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\battery.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\battery.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\camera-photo.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\camera-photo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\camera-video.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\camera-video.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\computer.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\computer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\drive-harddisk.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\drive-harddisk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\drive-optical.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\drive-optical.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\drive-removable-media.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\drive-removable-media.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\input-gaming.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\input-gaming.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\input-keyboard.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\input-keyboard.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\input-mouse.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\input-mouse.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\media-flash.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\media-flash.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\media-floppy.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\media-floppy.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\media-optical.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\media-optical.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\multimedia-player.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\multimedia-player.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\network-wired.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\network-wired.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\network-wireless.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\network-wireless.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\printer.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\printer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Devices\video-display.xaml">
+    </Page>
+    <Page Include="Scalable\Devices\video-display.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-favorite.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-favorite.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-important.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-important.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-photos.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-photos.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-readonly.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-readonly.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-symbolic-link.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-symbolic-link.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-system.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-system.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emblems\emblem-unreadable.xaml">
+    </Page>
+    <Page Include="Scalable\Emblems\emblem-unreadable.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-angel.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-angel.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-crying.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-crying.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-devilish.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-devilish.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-glasses.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-glasses.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-grin.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-grin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-kiss.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-kiss.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-monkey.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-monkey.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-plain.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-plain.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-sad.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-sad.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-smile-big.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-smile-big.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-smile.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-smile.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-surprise.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-surprise.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Emotes\face-wink.xaml">
+    </Page>
+    <Page Include="Scalable\Emotes\face-wink.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\application-certificate.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\application-certificate.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\application-x-executable.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\application-x-executable.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\audio-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\audio-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\font-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\font-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\image-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\image-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\package-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\package-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\text-html.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\text-html.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\text-x-generic-template.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\text-x-generic-template.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\text-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\text-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\text-x-script.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\text-x-script.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\video-x-generic.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\video-x-generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-address-book.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-address-book.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-calendar.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-calendar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-document-template.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-document-template.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-document.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-document.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-drawing-template.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-drawing-template.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-drawing.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-drawing.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-presentation-template.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-presentation-template.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-presentation.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-presentation.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-spreadsheet-template.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-spreadsheet-template.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Mimetypes\x-office-spreadsheet.xaml">
+    </Page>
+    <Page Include="Scalable\Mimetypes\x-office-spreadsheet.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\folder-remote.xaml">
+    </Page>
+    <Page Include="Scalable\Places\folder-remote.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\folder-saved-search.xaml">
+    </Page>
+    <Page Include="Scalable\Places\folder-saved-search.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\folder.xaml">
+    </Page>
+    <Page Include="Scalable\Places\folder.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\network-server.xaml">
+    </Page>
+    <Page Include="Scalable\Places\network-server.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\network-workgroup.xaml">
+    </Page>
+    <Page Include="Scalable\Places\network-workgroup.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\start-here.xaml">
+    </Page>
+    <Page Include="Scalable\Places\start-here.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\user-desktop.xaml">
+    </Page>
+    <Page Include="Scalable\Places\user-desktop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\user-home.xaml">
+    </Page>
+    <Page Include="Scalable\Places\user-home.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Places\user-trash.xaml">
+    </Page>
+    <Page Include="Scalable\Places\user-trash.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\audio-volume-high.xaml">
+    </Page>
+    <Page Include="Scalable\Status\audio-volume-high.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\audio-volume-low.xaml">
+    </Page>
+    <Page Include="Scalable\Status\audio-volume-low.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\audio-volume-medium.xaml">
+    </Page>
+    <Page Include="Scalable\Status\audio-volume-medium.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\audio-volume-muted.xaml">
+    </Page>
+    <Page Include="Scalable\Status\audio-volume-muted.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\battery-caution.xaml">
+    </Page>
+    <Page Include="Scalable\Status\battery-caution.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\dialog-error.xaml">
+    </Page>
+    <Page Include="Scalable\Status\dialog-error.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\dialog-information.xaml">
+    </Page>
+    <Page Include="Scalable\Status\dialog-information.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\dialog-warning.xaml">
+    </Page>
+    <Page Include="Scalable\Status\dialog-warning.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\folder-drag-accept.xaml">
+    </Page>
+    <Page Include="Scalable\Status\folder-drag-accept.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\folder-open.xaml">
+    </Page>
+    <Page Include="Scalable\Status\folder-open.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\folder-visiting.xaml">
+    </Page>
+    <Page Include="Scalable\Status\folder-visiting.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\image-loading.xaml">
+    </Page>
+    <Page Include="Scalable\Status\image-loading.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\image-missing.xaml">
+    </Page>
+    <Page Include="Scalable\Status\image-missing.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\mail-attachment.xaml">
+    </Page>
+    <Page Include="Scalable\Status\mail-attachment.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-error.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-error.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-idle.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-idle.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-offline.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-offline.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-receive.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-receive.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-transmit-receive.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-transmit-receive.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-transmit.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-transmit.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\network-wireless-encrypted.xaml">
+    </Page>
+    <Page Include="Scalable\Status\network-wireless-encrypted.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\printer-error.xaml">
+    </Page>
+    <Page Include="Scalable\Status\printer-error.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\software-update-available.xaml">
+    </Page>
+    <Page Include="Scalable\Status\software-update-available.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\software-update-urgent.xaml">
+    </Page>
+    <Page Include="Scalable\Status\software-update-urgent.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\user-trash-full.xaml">
+    </Page>
+    <Page Include="Scalable\Status\user-trash-full.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-clear-night.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-clear-night.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-clear.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-clear.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-few-clouds-night.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-few-clouds-night.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-few-clouds.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-few-clouds.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-overcast.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-overcast.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-severe-alert.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-severe-alert.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-showers-scattered.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-showers-scattered.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-showers.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-showers.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-snow.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-snow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Scalable\Status\weather-storm.xaml">
+    </Page>
+    <Page Include="Scalable\Status\weather-storm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
