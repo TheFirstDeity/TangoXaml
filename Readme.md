@@ -123,7 +123,7 @@ A WPF friendly port of the tango icon theme. Scalable SVG icons have been conver
 ## Changes
 #### 1.0.2 (Next Release)
 * Optimization: XAML files are pre-compiled into BAML instead of being JIT-compiled at runtime
-* __TODO:__ Must rewrite loading logic to use the [embedded BAML resources](resources.md)
+* __TODO:__ Must rewrite loading logic to use the [embedded BAML resources](http://github.com/TheFirstDeity/TangoXaml/wiki/Embedded-BAML-Resources)
 
 #### 1.0.1
 * Correction to LazyConverter type checking

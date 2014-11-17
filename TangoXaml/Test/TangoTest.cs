@@ -28,7 +28,7 @@ namespace TangoXaml
                 }
             }
 
-            File.WriteAllLines("resources.txt", resources.Keys);
+            // File.WriteAllLines("resources.txt", resources.Keys.Select(k => k + "  "));
         }
     }
 }
