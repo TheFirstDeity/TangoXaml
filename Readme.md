@@ -1,3 +1,4 @@
+![TangoXaml Example](ProjectIcon.png)  
 # TangoXaml
 
 ###_Download with NuGet: <http://www.nuget.org/packages/TangoXaml>_
